@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import { createGlobalStyle } from "styled-components";
+import "./index.css"
 
 const GlobalStyle = createGlobalStyle`
   *{
@@ -13,6 +14,7 @@ const GlobalStyle = createGlobalStyle`
     background-color: #323334;
     color: white;
     min-height: 100vh;
+    font-family: "Inter", serif;
   }
 `
 
